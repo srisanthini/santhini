@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int divisors =6;
+    cin>>divisors;
+    if(12<divisors)
+    {
+        cout<<"Abundant Number";
+    }else{
+        cout<<"Not Abundant Number";
+    }
+    return 0;
+}
